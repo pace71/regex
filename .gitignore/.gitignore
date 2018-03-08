@@ -27,7 +27,8 @@ namespace ConsoleApp288
                 builder.Append(m.Groups[1].Value);
             }
             
-                Console.WriteLine(builder);
+                Console.Write(builder);
+                Console.Writeline()
             }
             
         }
