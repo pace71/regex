@@ -13,7 +13,7 @@ namespace ConsoleApp288
         {
             string pattern = @"([A-Za-z]+)([<\|\\])(.*)([<\|\\])([A-Za-z]+)";
             string input = Console.ReadLine();
-                 string input = Console.ReadLine();
+               
             Match myMatch = Regex.Match(input, pattern);
 
             string start = myMatch.Groups[1].Value;
